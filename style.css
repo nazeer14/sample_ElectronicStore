@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+    
+  *{  
+    margin: 0;  
+    padding: 0;  
+  }  
+  
+  .navbar {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    position: sticky;  
+    top: 0;  
+    cursor: pointer;  
+  }  
+  
+  .background {  
+    background: rgb(97, 194, 214);  
+    background-blend-mode: darken;  
+    background-size: cover;  
+  }  
+  .back{
+    background: rgb(218, 224, 230);  
+    background-blend-mode: darken;  
+    background-size: cover; 
+  }
+  
+  .nav-list {  
+    width: 60%;  
+    display: flex;  
+    align-items: center;  
+    gap: 20px;
+    font-size: 20px;
+  }  
+  
+  .logo {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+  }  
+  
+  .logo img {  
+    width: 60px;  
+    border-radius: 60px;  
+  }  
+  
+  .nav-list li {  
+    list-style: none;  
+    padding: 26px 30px;  
+  }  
+  
+  .nav-list li a {  
+    text-decoration: none;  
+    color: rgb(14, 11, 11);  
+  }  
+  
+  .nav-list li a:hover {  
+    color: rgb(165, 20, 20);  
+
+  }  
+  
+  .rightnav {  
+    width: 30%;  
+    text-align: right;  
+  }  
+  
+  #search {  
+    padding: 3px;  
+    font-size: 17px;  
+    border: 1.5px solid rgb(11, 251, 3);  
+    border-radius: 9px;  
+  }  
+  
+  .firstsection { 
+    display: flex; 
+    background-color: rgb(179, 240, 179);  
+    height: 400px;  
+  }  
+  
+  #secondsection {
+    display: flex;  
+    background-color: rgb(132, 132, 235); 
+    height: 400px; 
+  }  
+  
+  .box-main {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    color: rgb(9, 11, 12);  
+    max-width: 80%;  
+    margin: auto;  
+    height: 50%;  
+  }  
+  
+  .firsthalf {  
+    display: flex;
+    width: 100%;  
+    padding: 10px 20px;
+    color: darkblue;
+    flex-direction: column;  
+    justify-content: center;  
+  }  
+  h2{
+    padding: 20px 20px;
+    color: purple;
+    text-align: center;
+  }
+  
+  .secondhalf {  
+    background-color: aqua;
+    justify-content: space-around;
+    padding: 10px 20px;
+  }  
+  .secondhalf p{
+    margin: 10px 400px;
+    width: 60%;
+  }
+  
+   
+  .firstsection img{
+    width: 250px;  
+    height: 150px;
+    border: 2px solid rgb(169, 230, 238);  
+    border-radius: 10px; 
+    justify-content:right; 
+    flex-direction: column-reverse;
+    display: flex;  
+    margin: 100px 90px;
+      
+  }
+  #secondsection img {  
+    width: 150px;  
+    border: 2px solid rgb(169, 230, 238);  
+    border-radius: 100px; 
+    justify-content: left;
+    flex-direction: column-reverse; 
+    display: flex;  
+    margin: 0px 0px;  
+    animation: rotate 10s ease infinite alternate;
+  }
+  #secondsection.right{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text-big {  
+    font-family: 'Piazzolla', serif;  
+    font-weight: bold;  
+    font-size: 45px;  
+    
+  }  
+  
+  .text-small {  
+    font-size: 20px;  
+  }  
+  
+  .btn {  
+  font-size:30px;
+  color:lime;
+    padding: 7px 20px;  
+    margin: 5px 0;  
+    border: 2px solid rgb(128, 255, 128);  
+    border-radius: 8px;  
+    background: rgb(128, 128, 255);   
+    cursor: pointer;  
+  }  
+    
+  .section {  
+    height: 500px;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    max-width: 90%;  
+    margin: auto;  
+  }  
+  
+  .section-Left {  
+    flex-direction: row-reverse;  
+  }  
+  
+  .paras {  
+    padding: 0px 65px;  
+  }  
+  
+  .thumbnail img {  
+    width: 250px;  
+    border: 2px solid rgb(255, 255, 255);  
+    border-radius: 26px;  
+    margin-top: 19px;  
+  }  
+  .text-footer {  
+    text-align: center;  
+    padding: 30px 0;  
+    font-family: 'Ubuntu,' sans-serif;  
+    display: flex;  
+    justify-content: center;  
+    color: rgb(17, 16, 16);  
+    background-color: bisque;
+  }  
+  @keyframes rotate {
+    0%{
+      transform: rotate(360deg);
+    }
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    padding: 5px 50px;
+    font-size: medium;
+    border-radius: 20px;
+    color: rgb(232, 68, 3);
+    background-color: rgb(226, 148, 30);
+    border-color: chocolate;
+  }  
+  .b1{
+	  text-align: center;
+	  font-size: 40px;
+	  color:white;
+  }
+  .page1
+  {
+  	color : Black;
+  	text-align: cenetr;
+  	font-size: 15px;
+  	box-sizing: 30px 5px 40px 0px;
+  }
+  .input-2
+  {
+  	color : green;
+  	text-align: cenetr;
+  	font-size: 15px;
+  
+  }
+  .cname{
+  font-size:50px;
+	color:aqua;
+	font-family: sans-serif;
+	  
+  }
+  .body1{
+  	
+  	color:yellow;
+  	background-image: url("https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg");
+  	background-position:center;
+  	height: 100%;
+  	
+  	
+  }
+ th, td{
+  	border: 2px solid;
+  }
+  
